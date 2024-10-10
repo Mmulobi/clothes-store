@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f0f4f8, #d9e3f0);
+    margin: 0;
+}
+
+header {
+    background: pink; /* Header color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffeb3b; /* Hover color */
+}
+
+.product-grid {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Reduced size */
+    gap: 15px; /* Space between items */
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px; /* Reduced padding */
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    position: relative; /* For pseudo-element positioning */
+    overflow: hidden; /* Ensures the image doesn't overflow the item */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s; /* Transition for image */
+}
+
+
+.product-item:hover img {
+    transform: scale(1.1); /* Zoom in effect on image hover */
+}
+
+button {
+    background: #ff5722; /* Button color */
+    color: white;
+    border: none;
+    padding: 8px 12px; /* Reduced padding for button */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px; /* Space between text and button */
+}
+
+button:hover {
+    background: #e64a19; /* Button hover color */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #283593;
+    color: white;
+    position: relative; /* Required for proper positioning */
+    bottom: 0;
+    width: 100%;
+}
+
+ /* Additional styles for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px; /* Adjust logo height */
+    margin-right: 10px; /* Space between logo and text */
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between nav items */
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #007BFF; /* Change color on hover */
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closet Maya</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+</head>  
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/lady.jpg" alt="Lady Logo"> <!-- Replace with actual path to logo -->
+            <span>Closet Maya</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="add-product.html">Add Product</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </header>
+
+    <section class="product-grid">
+        <h2>Products</h2>
+        <div id="product-grid" class="grid-container"></div> <!-- Only one product-grid element -->
+    </section>
+
+    <!-- Importing index.js to handle dynamic loading and view details functionality -->
+    <script src="js/index.js"></script>
+</body>
+</html>
