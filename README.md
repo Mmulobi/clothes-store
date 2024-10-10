@@ -1,4 +1,4 @@
-Closet Maya - E-Commerce Website
+##Closet Maya - E-Commerce Website
 Project Overview
 Closet Maya is an interactive, dynamic e-commerce website designed to showcase and sell clothing items. The platform allows users to browse products, view detailed product information, add items to a cart, and place orders. It features a modern, animated UI with dynamic scrolling and smooth user interactions.
 
